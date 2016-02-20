@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MariaVintimilla/clubhouse/issues"
   },
-  "homepage": "https://github.com/MariaVintimilla/clubhouse#readme"
+  "homepage": "https://github.com/MariaVintimilla/clubhouse#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }

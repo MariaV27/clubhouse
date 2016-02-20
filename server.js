@@ -12,3 +12,7 @@ app.engine('handlebars', expressHandlebars({
 }));
 app.set('view engine', 'handlebars');
 
+var clubhouse = connection.define('clubhousee', {
+  name: Sequelize.STRING,
+  satisfaction: Sequelize.INTEGER
+});
